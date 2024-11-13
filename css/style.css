@@ -96,7 +96,7 @@ h3{
 }
 
 .social-icon{
-   font-size: 20px; 
+   font-size: 16px; 
    background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
 }
@@ -151,6 +151,10 @@ main{
 }
 .social .social-icon > span{
     display: none;
+    
+}
+.banner{
+    display: none;
 }
 
 /*----------------
@@ -173,6 +177,9 @@ main{
     i{
         padding: 10px 10px
     }
+    .banner{
+        display: block;
+    }
 
 
 }
@@ -186,8 +193,7 @@ main{
     }
     .social .social-icon> span{
         display: inline;
-    }
-    i{
-        padding-right: 6px 6px;
+        font-size: 15px;
+        padding: 10px 5px;
     }
 }

@@ -40,6 +40,7 @@
 
 .row {
     display: flex;
+    flex-direction: column;
 }
 
 .gap-10 {
@@ -61,9 +62,24 @@
 ------------------*/
 body {
      font-family: "Montserrat", sans-serif;
-     font-family: "Nerko One", cursive;
+    background-color: #F6F5F3;
 }
-
+h1{
+    font-family: "Nerko One", cursive;
+    font-size: 36px;
+    text-align: center;
+    color: #FF9613;
+}
+h2{
+    font-weight: 800;
+    font-size: 25px;
+    color: #4E3969;
+}
+h3{
+    font-size: 16px;
+    font-weight: 300;
+    color: #585858;
+}
 /*----------------
     BUTTONS
 ------------------*/
@@ -88,11 +104,47 @@ body {
 /*----------------
     HEADER
 ------------------*/
-
+header{
+    background-color: #fff;
+    text-align: center;
+    position: sticky;
+    top: 0%;
+    left: 0;
+    z-index: 20;
+}
 /*----------------
     MAIN
 ------------------*/
+main{
+    padding: 28px;
+}
 
+.intro h2{
+   margin-top: 10px; 
+   margin-bottom: 10px;
+}
+
+.intro h2 > span{
+    display: none;
+
+}
 /*----------------
     FOOTER
 ------------------*/
+
+
+
+/*----------------
+    RESPONSIVE
+------------------*/
+@media screen and (min-width: 768px) {
+    header{
+        text-align: left;
+    }
+    .intro h2 > span{
+        display:inline;
+    
+    }
+
+    
+}

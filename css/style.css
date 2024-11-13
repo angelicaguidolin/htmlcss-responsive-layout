@@ -30,6 +30,9 @@ li{
     list-style: none;
     padding: 5px 0px;
 }
+a{
+    color: #fff;
+}
 
 /*----------------
     LAYOUT
@@ -156,6 +159,9 @@ main{
 .banner{
     display: none;
 }
+.prep{
+    padding-bottom: 20px;
+}
 .prep h3{
     font-size:30px;
     padding-bottom: 10px;
@@ -170,10 +176,29 @@ main{
     margin: auto;
     display: block;
 }
+
+
 /*----------------
     FOOTER
 ------------------*/
 
+footer{
+    background-color: #7C69A4;
+    color: #fff;
+}
+footer p{
+  padding-top: 10px;
+ font-size: 14px;
+   text-align: center;  
+}
+.list-info{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.list-info a{
+    text-align: center;
+}
 
 
 /*----------------
@@ -197,8 +222,15 @@ main{
     .prep hr{
         width: 10%;
     }
-    
+    .tiramisù {
+        float: left
+    }
+    .list-info{
+        display: flex;
+        flex-wrap: wrap;
 
+    }
+  
 
 }
 
@@ -214,4 +246,14 @@ main{
         font-size: 15px;
         padding: 10px 5px;
     }
+    .list-info{
+        flex-wrap: nowrap;
+        justify-content: right;
+      
+
+    }
+    .piva{
+        text-align: left;
+    }
+    
 }

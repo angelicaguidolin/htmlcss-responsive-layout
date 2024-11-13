@@ -156,7 +156,20 @@ main{
 .banner{
     display: none;
 }
+.prep h3{
+    font-size:30px;
+    padding-bottom: 10px;
+}
+.prep hr{
+    width: 15%;
 
+}
+.tiramisù {
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
+    margin: auto;
+    display: block;
+}
 /*----------------
     FOOTER
 ------------------*/
@@ -179,7 +192,12 @@ main{
     }
     .banner{
         display: block;
+        padding-bottom: 20px;
     }
+    .prep hr{
+        width: 10%;
+    }
+    
 
 
 }
